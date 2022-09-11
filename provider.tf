@@ -1,4 +1,11 @@
 provider "google" {
-  project     = "lively-guard-355000"
+  project     = "aem-migr"
   region      = "us-central1"
 }
+
+provider "google-beta" {
+ 
+}
+
+
+
